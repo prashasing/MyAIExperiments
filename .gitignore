@@ -1,0 +1,57 @@
+[Bb]in/
+[Oo]bj/
+packages/
+artifacts/
+node_modules/
+.vs/
+_ReSharper.*
+.idea/
+
+*.userprefs
+*DS_Store
+*.sln.ide
+
+*.trx
+*.suo
+*.user
+*.vssscc
+*.orig
+*.dbmdl
+*.jfm
+*.playlist
+StyleCop.Cache
+
+source/Hosts/Bonus.AdminService.Host/web.config
+source/Hosts/Bonus.CalculationService.Host/web.config
+source/Hosts/Bonus.ReportService.Host/web.config
+source/Hosts/GameTransaction.Service.Host/web.config
+source/Hosts/WalletTransfer.Service.Host/web.config
+source/Hosts/WalletAccountService.Hosts/web.config
+source/Hosts/ReportWalletInterface.Host/web.config
+
+tests/integrationtests/IntegrationTests/app.config
+tests/integrationtests/System tests/app.config
+tests/integrationtests/wallet/SystemTests.GameTransactionService/app.config
+tests/integrationtests/wallet/SystemTests.ReportWalletService/app.config
+tests/integrationtests/wallet/SystemTests.WalletAccountService/app.config
+tests/integrationtests/wallet/SystemTests.WalletBrandService/app.config
+tests/integrationtests/wallet/SystemTests.WalletTransferService/app.config
+
+msbuild.log
+
+*.bak
+
+# nCrunch local files and folders
+_NCrunch_*/
+*.ncrunchproject
+*.ncrunchsolution
+
+# due to new SDK style config creation
+*.dll.config
+
+# ignore bego action
+.github/actions
+
+# ignore tests code coverage results
+/coverage
+/coveragereport
